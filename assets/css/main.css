@@ -27395,5 +27395,42 @@ body.tp-magic-cursor #magic-cursor {
 .aleric-light .tp-footer-it-copyright a {
   color: var(--tp-common-black);
 }
-
+ .tp-portfolio-sectitle {
+            font-size:72px;
+         }
+         .tp-faq-wrap .tp-faq-btn, .accordion-body {
+            background-color: #222!important;
+            color: #fff !important;
+            border-color:#333;
+         }
+         .tp-faq-details-para p, .tp-faq-details-para li, .tp-faq-details-para span {
+            color: #fff !important;
+         }
+         .tp-btn-lg {
+            background-color: #2b4d93;
+            color: #fff;
+         }
+         :root {
+            --tp-theme-primary: #f3a437;
+            --tp-ff-body: 'Plus Jakarta Sans', sans-serif;
+             --tp-ff-heading: 'Plus Jakarta Sans', sans-serif;
+         }
+         .title-slide-gradient {
+            background-image: -webkit-linear-gradient(90deg, #429ab5 0%, #cb1e52 50%, #429ab5 100%);
+            background-image: -moz-linear-gradient(90deg, #429ab5 0%, #cb1e52 50%, #429ab5 100%);
+            background-image: -ms-linear-gradient(90deg, #429ab5 0%, #cb1e52 50%, #429ab5 100%);
+            background-image: -o-linear-gradient(90deg, #429ab5 0%, #cb1e52 50%, #429ab5 100%);
+            background-image: linear-gradient(90deg, #429ab5 0%, #cb1e52 50%, #429ab5 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+            -moz-animation: sliderTitle3 2s ease-in-out 1s forwards infinite alternate;
+            -webkit-animation: sliderTitle3 2s ease-in-out 1s forwards infinite alternate;
+            animation: sliderTitle3 2s ease-in-out 1s forwards infinite alternate;
+            background-size: 150% 150%;
+         }
+         .tp-portfolio-slicer-title {
+            font-size:80px;
+         }
 /*# sourceMappingURL=main.css.map */

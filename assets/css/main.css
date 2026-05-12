@@ -211,10 +211,10 @@ li,
 ---------------------------------*/
 body {
   font-family: var(--tp-ff-body);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
   color: var(--tp-common-black);
-  line-height: 26px;
+  line-height: 24px;
 }
 
 a {
@@ -241,27 +241,27 @@ h6 {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 52px;
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 38px;
 }
 
 h3 {
-  font-size: 36px;
+  font-size: 28px;
 }
 
 h4 {
-  font-size: 26px;
-}
-
-h5 {
   font-size: 20px;
 }
 
-h6 {
+h5 {
   font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
 }
 
 ul {
@@ -273,8 +273,8 @@ p {
   font-family: var(--tp-ff-p);
   color: var(--tp-grey-1);
   font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 14px;
+  line-height: 24px;
   margin-bottom: 15px;
 }
 
@@ -1213,239 +1213,239 @@ input[type=color] {
 
 /* Font size */
 .fs-12 {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .fs-13 {
-  font-size: 13px;
+  font-size: 11px;
 }
 
 .fs-14 {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .fs-15 {
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .fs-16 {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .fs-17 {
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .fs-18 {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .fs-19 {
-  font-size: 19px;
+  font-size: 17px;
 }
 
 .fs-20 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .fs-21 {
-  font-size: 21px;
+  font-size: 19px;
 }
 
 .fs-22 {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .fs-23 {
-  font-size: 23px;
+  font-size: 21px;
 }
 
 .fs-24 {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .fs-25 {
-  font-size: 25px;
+  font-size: 23px;
 }
 
 .fs-26 {
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .fs-27 {
-  font-size: 27px;
+  font-size: 25px;
 }
 
 .fs-28 {
-  font-size: 28px;
+  font-size: 26px;
 }
 
 .fs-29 {
-  font-size: 29px;
+  font-size: 27px;
 }
 
 .fs-30 {
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .fs-31 {
-  font-size: 31px;
+  font-size: 29px;
 }
 
 .fs-32 {
-  font-size: 32px;
+  font-size: 30px;
 }
 
 .fs-33 {
-  font-size: 33px;
+  font-size: 31px;
 }
 
 .fs-34 {
-  font-size: 34px;
+  font-size: 32px;
 }
 
 .fs-35 {
-  font-size: 35px;
+  font-size: 33px;
 }
 
 .fs-36 {
-  font-size: 36px;
+  font-size: 34px;
 }
 
 .fs-37 {
-  font-size: 37px;
+  font-size: 35px;
 }
 
 .fs-38 {
-  font-size: 38px;
+  font-size: 36px;
 }
 
 .fs-39 {
-  font-size: 39px;
+  font-size: 37px;
 }
 
 .fs-40 {
-  font-size: 40px;
+  font-size: 38px;
 }
 
 .fs-41 {
-  font-size: 41px;
+  font-size: 39px;
 }
 
 .fs-42 {
-  font-size: 42px;
+  font-size: 40px;
 }
 
 .fs-43 {
-  font-size: 43px;
+  font-size: 41px;
 }
 
 .fs-44 {
-  font-size: 44px;
+  font-size: 42px;
 }
 
 .fs-45 {
-  font-size: 45px;
+  font-size: 43px;
 }
 
 .fs-46 {
-  font-size: 46px;
+  font-size: 44px;
 }
 
 .fs-47 {
-  font-size: 47px;
+  font-size: 45px;
 }
 
 .fs-48 {
-  font-size: 48px;
+  font-size: 46px;
 }
 
 .fs-49 {
-  font-size: 49px;
+  font-size: 47px;
 }
 
 .fs-50 {
-  font-size: 50px;
+  font-size: 48px;
 }
 
 .fs-51 {
-  font-size: 51px;
+  font-size: 49px;
 }
 
 .fs-52 {
-  font-size: 52px;
+  font-size: 50px;
 }
 
 .fs-53 {
-  font-size: 53px;
+  font-size: 51px;
 }
 
 .fs-54 {
-  font-size: 54px;
+  font-size: 52px;
 }
 
 .fs-55 {
-  font-size: 55px;
+  font-size: 53px;
 }
 
 .fs-56 {
-  font-size: 56px;
+  font-size: 54px;
 }
 
 .fs-57 {
-  font-size: 57px;
+  font-size: 55px;
 }
 
 .fs-58 {
-  font-size: 58px;
+  font-size: 56px;
 }
 
 .fs-59 {
-  font-size: 59px;
+  font-size: 57px;
 }
 
 .fs-60 {
-  font-size: 60px;
+  font-size: 58px;
 }
 
 .fs-61 {
-  font-size: 61px;
+  font-size: 59px;
 }
 
 .fs-62 {
-  font-size: 62px;
+  font-size: 60px;
 }
 
 .fs-63 {
-  font-size: 63px;
+  font-size: 61px;
 }
 
 .fs-64 {
-  font-size: 64px;
+  font-size: 62px;
 }
 
 .fs-65 {
-  font-size: 65px;
+  font-size: 63px;
 }
 
 .fs-66 {
-  font-size: 66px;
+  font-size: 64px;
 }
 
 .fs-67 {
-  font-size: 67px;
+  font-size: 65px;
 }
 
 .fs-68 {
-  font-size: 68px;
+  font-size: 66px;
 }
 
 .fs-69 {
-  font-size: 69px;
+  font-size: 67px;
 }
 
 .fs-70 {
-  font-size: 70px;
+  font-size: 52px;
 }
 
 .fs-71 {
@@ -3355,6 +3355,55 @@ input[type=color] {
     font-size: 100px;
   }
 }
+
+.tp-two-column-area {
+  background-color: #f8fbfc;
+}
+
+.tp-two-column-area .tp-two-col-image {
+  overflow: hidden;
+  border-radius: 28px;
+  box-shadow: 0 30px 80px rgba(19, 32, 70, 0.08);
+}b
+
+.tp-two-column-area .tp-two-col-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  min-height: 420px;
+}
+
+.tp-two-column-area .tp-two-col-content {
+  padding: 55px 40px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 0 30px 80px rgba(32, 33, 51, 0.08);
+}
+
+.tp-two-column-area .tp-two-col-content .tp-section-subtitle {
+  color: var(--tp-theme-1);
+}
+
+.tp-two-column-area .tp-two-col-content h2 {
+  color: var(--tp-common-black-1);
+}
+
+.tp-two-column-area .tp-two-col-content p {
+  color: var(--tp-grey-2);
+  line-height: 1.8;
+}
+
+@media (max-width: 991.98px) {
+  .tp-two-column-area .tp-two-col-image img {
+    min-height: 260px;
+  }
+
+  .tp-two-column-area .tp-two-col-content {
+    padding: 35px 25px;
+  }
+}
+
 .tp-text-common-white {
   color: var(--tp-common-white);
 }
@@ -3421,6 +3470,7 @@ input[type=color] {
 
 .tp-text-common-black-6 {
   color: var(--tp-common-black-6);
+  font-family: var(--tp-ff-dm);
 }
 
 .tp-bg-common-black-6 {
@@ -11310,6 +11360,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-about-title span {
   display: inline-block;
   width: 88px;
+}
+.tp-about-ai-text-wrap {
+  max-width:70%;
+  margin:0 auto 60px;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
   .tp-about-title span {

@@ -147,9 +147,9 @@ li,
   /**
   @font family declaration
   */
-  --tp-ff-body: 'Kanit', sans-serif;
+  --tp-ff-body: 'DM Sans', sans-serif;
   --tp-ff-heading: 'Space Grotesk', sans-serif;
-  --tp-ff-p: 'Kanit', sans-serif;
+  --tp-ff-p: 'DM Sans', sans-serif;
   --tp-ff-teko: 'Teko', sans-serif;
   --tp-ff-funnel: 'Funnel Display', sans-serif;
   --tp-ff-sora: 'Sora', sans-serif;
@@ -184,7 +184,7 @@ li,
   --tp-common-meteor: #E62415;
   --tp-common-angry: #f14f44;
   --tp-common-sugar : #FFFBF5;
-  --tp-grey-1: #525252;
+  --tp-grey-1: rgb(27, 27, 27);
   --tp-grey-2: #999;
   --tp-grey-3: #f8f8f8;
   --tp-grey-4: #aaa;
@@ -1237,11 +1237,11 @@ input[type=color] {
 }
 
 .fs-18 {
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .fs-19 {
-  font-size: 17px;
+  font-size: 19px;
 }
 
 .fs-20 {
@@ -11711,7 +11711,7 @@ body.tp-magic-cursor #magic-cursor {
 .tp-about-process-2-item ul li {
   list-style: none;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   color: var(--tp-common-black);
 }
 .tp-about-process-2-item ul li:not(:last-child) {
@@ -12796,13 +12796,13 @@ body.tp-magic-cursor #magic-cursor {
   margin-bottom: 13px;
 }
 .tp-service-details-content ul li i {
-  font-size: 18px;
+  font-size: 17px;
   color: var(--tp-grey-1);
   margin-right: 10px;
   margin-top: 4px;
 }
 .tp-service-details-content ul li p {
-  font-size: 18px;
+  font-size: 17px;
   line-height: 144%;
   font-weight: 300;
   margin-bottom: 0;
@@ -12839,6 +12839,11 @@ body.tp-magic-cursor #magic-cursor {
   right: 0;
   transition: all 0.4s ease;
 }
+
+@media only screen and (min-width: 768px) {
+  .mr-lg-95 {margin-right:90px;}
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
   .tp-service-cst-content {
     margin-right: 32px;
@@ -27452,14 +27457,7 @@ body.tp-magic-cursor #magic-cursor {
  .tp-portfolio-sectitle {
             font-size:72px;
          }
-         .tp-faq-wrap .tp-faq-btn, .accordion-body {
-            background-color: #222!important;
-            color: #fff !important;
-            border-color:#333;
-         }
-         .tp-faq-details-para p, .tp-faq-details-para li, .tp-faq-details-para span {
-            color: #fff !important;
-         }
+        
          .tp-btn-lg {
             background-color: #2b4d93;
             color: #fff;

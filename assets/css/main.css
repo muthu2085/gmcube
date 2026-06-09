@@ -5926,6 +5926,40 @@ body.loaded {
   -o-transition: all 0.4s ease 0.3s 0s ease-out;
   transition: all 0.4s ease 0.3s 0s ease-out;
 }
+.tp-breadcrumb-list {
+  display: flex;
+  justify-content: center;
+}
+.tp-breadcrumb-list ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+ 
+}
+.tp-breadcrumb-list ul li {
+  margin: 0;
+}
+.tp-breadcrumb-list ul li a {
+  color: var(--tp-common-black-3);
+}
+.tp-breadcrumb-list ul li a.active {
+  color: var(--tp-common-black-3);
+  border-bottom: 2px solid var(--tp-theme-secondary);
+  padding-bottom: 2px;
+}
+.tp-breadcrumb-list ul li a:hover {
+  background-image: linear-gradient(currentColor, currentColor), linear-gradient(currentColor, currentColor);
+  background-size: 0 1px, 100% 1px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s linear;
+  -webkit-transition: all 0.4s ease 0.3s 0s ease-out;
+  -moz-transition: all 0.4s ease 0.3s 0s ease-out;
+  -ms-transition: all 0.4s ease 0.3s 0s ease-out;
+  -o-transition: all 0.4s ease 0.3s 0s ease-out;
+  transition: all 0.4s ease 0.3s 0s ease-out;
+}
 .tp-breadcrumb-2-spacing {
   padding-top: 96px;
 }

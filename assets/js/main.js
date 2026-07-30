@@ -86,6 +86,17 @@
 	});
 	
 	document.addEventListener("DOMContentLoaded", () => {
+		if (!document.querySelector('.whatsapp-float')) {
+			const whatsappBtn = document.createElement('a');
+			whatsappBtn.href = 'https://wa.me/+919148718524';
+			whatsappBtn.target = '_blank';
+			whatsappBtn.rel = 'noopener noreferrer';
+			whatsappBtn.className = 'whatsapp-float';
+			whatsappBtn.setAttribute('aria-label', 'Contact us on WhatsApp');
+			whatsappBtn.innerHTML = '<i class="fa-brands fa-whatsapp"></i>';
+			document.body.appendChild(whatsappBtn);
+		}
+
 		const svg = document.getElementById("svg");
 		if (!svg) return;
 
